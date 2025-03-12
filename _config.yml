@@ -29,9 +29,15 @@ github_username:  abramovav64
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
+#remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
+
+#just_the_docs:
+#  show_toc: true
+#  toc_depth: 3  # Глубина отображаемых заголовков (h2, h3, h4)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -44,7 +50,7 @@ plugins:
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
-#   - gemfiles/
+#   - gemfiles/2025-03-11-welcome-to-jekyll
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
@@ -52,3 +58,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
