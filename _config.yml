@@ -35,6 +35,9 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+index: /docs/index.md
+data_source: _data
+
 #just_the_docs:
 #  show_toc: true
 #  toc_depth: 3  # Глубина отображаемых заголовков (h2, h3, h4)

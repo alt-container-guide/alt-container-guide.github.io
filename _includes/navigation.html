@@ -1,0 +1,22 @@
+<nav>
+    <ul class="test555">
+      {% for item in site.data.navigation %}
+        <li>
+          <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>
+            {{ item.name }}
+          </a>
+          {% if item.subitems %}
+            <ul>
+              {% for subitem in item.subitems %}
+                <li>
+                  <a href="{{ subitem.url }}" {% if page.url == subitem.url %}class="active"{% endif %}>
+                    {{ subitem.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>

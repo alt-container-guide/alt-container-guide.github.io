@@ -1,0 +1,17 @@
+docs:
+  - title: Главная
+    url: /docs/
+  - title: Упражнение 1
+    url: /docs/exercise-1/
+    children:
+      - title: Тема 1
+        url: /docs/exercise-1/topic-1/
+      - title: Тема 2
+        url: /docs/exercise-1/topic-2/
+  - title: Упражнение 2
+    url: /docs/exercise-2/
+    children:
+      - title: Тема 1
+        url: /docs/exercise-2/topic-1/
+      - title: Тема 2
+        url: /docs/exercise-2/topic-2/
